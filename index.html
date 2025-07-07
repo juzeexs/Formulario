@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Login</h2>
+
+  <form id="formCadastro" method="POST" action="/submit_form">
+    <input type="text" id="nome" placeholder="Nome Completo" required><br>
+
+    <input type="email" id="email" placeholder="Email" required><br>
+
+    <input type="password" id="senha" placeholder="Senha (mín. 8)" minlength="8" required><br>
+
+    <input type="password" id="confirmarSenha" placeholder="Confirmar Senha" required><br>
+
+    <p>Gênero:</p>
+    <label><input type="radio" name="genero" value="masculino" required> Masculino</label>
+    <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+    <label><input type="radio" name="genero" value="outro"> Outro</label><br>
+
+    <p>Interesses:</p>
+    <label><input type="checkbox" name="interesse" value="esportes"> Esportes</label>
+    <label><input type="checkbox" name="interesse" value="musica"> Música</label>
+    <label><input type="checkbox" name="interesse" value="tecnologia"> Tecnologia</label><br>
+
+    <p>Foto de Perfil:</p>
+    <input type="file" accept="image/*"><br>
+
+    <p>País:</p>
+    <select id="pais" required>
+      <option value="">Selecione...</option>
+      <option value="Brasil">Brasil</option>
+      <option value="Portugal">Portugal</option>
+      <option value="EUA">EUA</option>
+    </select><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- Mensagem de sucesso -->
+  <div id="mensagemSucesso" style="color: green; font-weight: bold; margin-top: 20px;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
+
+
+
+
