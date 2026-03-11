@@ -53,10 +53,28 @@ h1 {
     margin-bottom: 18px;
 }
 
+button:hover {
+    background-color: transparent;
+    color: #292980;
+    border: 1px solid #292980;
+    transition: 0.3s;
+}
+
+/* Estado inicial do botão transparente */
 .container button.hidden {
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #fff; /* Garante que a borda branca apareça */
+    color: #fff;            /* Mantém o texto branco no início */
+    transition: 0.3s;       /* Transição suave para o hover */
 }
+
+/* Efeito Hover (Sempre na cor branca) */
+.container button.hidden:hover {
+    background-color: #fff;   /* Fundo fica branco */
+    color: #292980;          /* Texto assume a cor azul escura para contraste */
+    border-color: #fff;      /* Mantém a borda branca ou invisível sobre o fundo */
+}
+
 
 /* Estrutura Principal */
 .container{
