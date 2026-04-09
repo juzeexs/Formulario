@@ -38,7 +38,7 @@ h1 {
 }
 
 .container button{
-    background-color: #292980;
+    background-color: #cfa15a;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -55,8 +55,8 @@ h1 {
 
 button:hover {
     background-color: transparent;
-    color: #292980;
-    border: 1px solid #292980;
+    color: #cfa15a;
+    border: 1px solid #cfa15a;
     transition: 0.3s;
 }
 
@@ -69,7 +69,7 @@ button:hover {
 
 .container button.hidden:hover {
     background-color: #fff;
-    color: #292980;
+    color: #cfa15a;
     border-color: #fff;
 }
 
@@ -166,7 +166,7 @@ button:hover {
 }
 
 .toggle{
-    background: linear-gradient(to bottom, #4251a5, #11104d);
+    background: linear-gradient(to bottom, #bd9150, #cfa15a);
     color: #fff;
     position: relative;
     top: -100%;
@@ -253,7 +253,7 @@ button:hover {
 }
 
 .toast.sucesso {
-    background-color: #292980;
+    background-color: #cfa15a;
 }
 
 .toast.erro {
